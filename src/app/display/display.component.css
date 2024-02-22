@@ -1,0 +1,8 @@
+h3 {
+  margin: 1rem 0;
+  border: 2px solid gray;
+  border-radius: 8px;
+  background-color: lightgray;
+  font-size: 2rem;
+  text-align: center;
+}

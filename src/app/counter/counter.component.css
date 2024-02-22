@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 8px;
+  background-color: cornflowerblue;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+button:first-child {
+  background-color: goldenrod;
+}
+
+button:nth-child(2) {
+  background-color: tomato;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
